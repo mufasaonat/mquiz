@@ -29,3 +29,9 @@ h3 {
 h2.subtitle:hover{
   font-size: 30px;
 }
+
+/* video */
+
+.group-video{
+  border: 5px solid salmon;  
+}
