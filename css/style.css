@@ -47,6 +47,8 @@ div.names ol,h3{
   margin-left: 50px;
 }
 
-.row.content{
-  background-color: aqua;
+div.col-6{
+  font-size: 2vi;
+  display:inline;
+  text-indent: 50px;
 }
