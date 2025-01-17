@@ -25,6 +25,7 @@ div.instructions h2{
 h3 {
   font-size: 1.5vi;
   color: red; 
+  text-align: justify;
 }
 
 h2.subtitle:hover{
