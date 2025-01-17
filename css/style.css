@@ -1,7 +1,7 @@
 *{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 5;
-  background-color: white;
+  background-color: transparent;
 }
 
 .container {
@@ -16,9 +16,10 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2, instruction {
+div.instructions h2{
   font-size: 2vi;
   text-align: center;
+  border-left: blue;
 }
 
 h3 {
@@ -44,11 +45,11 @@ div.color{
   text-align: center;
 }
 div.names ol,h3{
-  margin-left: 50px;
+  margin-left: 50px;  
 }
 
-div.col-6{
-  font-size: 2vi;
-  display:inline;
-  text-indent: 50px;
+div.instructions h2{
+  background-color: azure;
+  border-left-color: blue;
 }
+
