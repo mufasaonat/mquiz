@@ -1,95 +1,30 @@
-
-    body{        
-        background-color: rgb(186, 153, 201);
-    }
-    .container{
-        margin-top: 50px;
-    }
-    
-    li{
-        font-size: 25px;
-    }
-    h1{
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    h2{
-        background-color:floralwhite;
-    }
-    .m61{
-        background-color: wheat;
-    }
-    .m62{
-        background-color:bisque;
-    }
-    @layer demo {
-        .highlighted-text-shadow {
-          text-shadow:
-            /* regular text-shadow */
-            0 .15ch 15px var(--shadow),
-            /* text-shadow highlight */
-            0 -2px 0 var(--highlight);
-        }
-      }
-      
-      @layer demo.support {
-        :root {
-          --hue: 320; /* change me */
-          --bg: oklch(35% .3 var(--hue));
-          --text: oklch(85% .1 var(--hue));
-          --shadow: oklch(25% .2 var(--hue));
-          --highlight: oklch(98% .05 var(--hue));
-        }
-        
-        * {
-          box-sizing: border-box;
-          margin: 0;
-        }
-      
-        html {
-          block-size: 100%;
-          background-color: var(--bg);
-          color: var(--text);
-        }
-      
-        body {
-          min-block-size: 100%;
-          font-family: system-ui, sans-serif;
-      
-          display: grid;
-          place-content: center;
-          gap: 10vh;
-        }
-        
-        h1 {
-          font-size: 15vi;
-          letter-spacing: -.15ch;
-          line-height: .75;
-        }
-
-        table{
-          display: grid;
-          border-spacing: 2px;
-          border-collapse: separate;
-          box-sizing:border-box;
-          text-indent: 0;
-        }
-
-        
-thead {
-	border-block-end: 2px solid;
-	background: whitesmoke;
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5;
 }
 
-tfoot {
-	border-block: 2px solid;
-	background: whitesmoke;
+.container {
+  margin-top: 50px;
 }
 
-th,
-td {
-	border: 1px solid lightgrey;
-	padding: 0.25rem 0.75rem;
+h1 {
+  font-size: 5vi;
+  letter-spacing: -.15ch;
+  line-height: .75;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
+h2, instruction {
+  font-size: 2vi;
+  text-align: center;
+}
 
+h3 {
+  font-size: 1.5vi;
+  color: red; 
+}
+
+h2.subtitle:hover{
+  font-size: 30px;
+}
