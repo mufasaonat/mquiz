@@ -62,14 +62,16 @@ div.names{
 }
 
 .title-group{  
-  color: burlywood;
+  color:black;
 }
 .a{
   background-color: blue;
+  color: white;
 }
 .b{
-  background-color: cornsilk;
+  background-color: cornsilk;  
 }
 .c{
   background-color: red;
+  color: white;
 }
