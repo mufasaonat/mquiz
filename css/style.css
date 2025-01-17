@@ -15,7 +15,9 @@ h1 {
   text-align: center;
   margin-bottom: 10px;
 }
-
+h2{
+  text-align: center;
+}
 div.instructions h2{
   font-size: 2vi;
   text-align: center;
@@ -46,7 +48,7 @@ div.color{
   text-align: center;
 }
 div.names ol,h3{
-  margin-left: 50px;  
+  margin-left: 0px;    
 }
 
 div.instructions h2{
