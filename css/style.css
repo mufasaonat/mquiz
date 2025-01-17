@@ -66,3 +66,30 @@
           letter-spacing: -.15ch;
           line-height: .75;
         }
+
+        table{
+          display: grid;
+          border-spacing: 2px;
+          border-collapse: separate;
+          box-sizing:border-box;
+          text-indent: 0;
+        }
+
+        
+thead {
+	border-block-end: 2px solid;
+	background: whitesmoke;
+}
+
+tfoot {
+	border-block: 2px solid;
+	background: whitesmoke;
+}
+
+th,
+td {
+	border: 1px solid lightgrey;
+	padding: 0.25rem 0.75rem;
+}
+
+
