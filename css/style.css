@@ -1,5 +1,5 @@
 *{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 5;
   background-color: white;
 }
@@ -33,7 +33,7 @@ h2.subtitle:hover{
 /* video */
 
 .group-video{
-  border: 10px solid salmon;  
+  border: 5px solid salmon;  
 }
 
 .row .content{
@@ -42,4 +42,11 @@ h2.subtitle:hover{
 div.color{
   margin-top: 20px;
   text-align: center;
+}
+div.names ol,h3{
+  margin-left: 50px;
+}
+
+.row.content{
+  background-color: aqua;
 }
