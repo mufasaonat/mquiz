@@ -75,3 +75,20 @@ div.names{
   background-color: red;
   color: white;
 }
+
+a{
+  text-decoration: none;
+  font-style: bold;
+  font-size: larger;
+}
+.objective, h3{
+  font-size: 1.3vi;
+  color: red;
+  text-align: justify;
+}
+.subtitle{
+  font-size: 30px;
+  background-color: brown;
+  color: white;
+  border-radius: 50px;
+}
