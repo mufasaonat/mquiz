@@ -92,3 +92,9 @@ a{
   color: white;
   border-radius: 50px;
 }
+
+ol li a:hover{
+  font-size: 2.5vi;
+  color:ivory;
+  background-color:blue;
+}
