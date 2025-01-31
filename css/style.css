@@ -38,6 +38,7 @@ h2.subtitle:hover{
 
 .group-video{
   border: 5px solid salmon;  
+  margin-top: 20px;
 }
 
 .row .content{
@@ -97,4 +98,8 @@ ol li a:hover{
   font-size: 2.5vi;
   color:ivory;
   background-color:blue;
+}
+.names{
+  background-color:brown;
+  color: white;
 }
