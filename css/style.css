@@ -58,8 +58,10 @@ div.instructions h2{
 }
 
 div.names{
-  text-indent: 50px;  
+  /* text-indent: 50px;   */
   margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 .title-group{  
