@@ -1,5 +1,5 @@
-*{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 5;
   background-color: transparent;
 }
@@ -15,10 +15,12 @@ h1 {
   text-align: center;
   margin-bottom: 10px;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-div.instructions h2{
+
+div.instructions h2 {
   font-size: 2vi;
   text-align: center;
   border-left: blue;
@@ -30,78 +32,96 @@ h3 {
   text-align: justify;
 }
 
-h2.subtitle:hover{
+h2.subtitle:hover {
   font-size: 30px;
 }
 
 /* video */
-
-.group-video{
+.group-video {
   border: 5px solid salmon;  
   margin-top: 20px;
 }
 
-.row .content{
+.row .content {
   background-color: chocolate;
 }
-div.video{
+
+div.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
   margin-top: 20px;
   text-align: center;
 }
-div.names ol,h3{
+
+div.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.names ol, h3 {
   margin-left: 0px;    
 }
 
-div.instructions h2{
+div.instructions h2 {
   background-color: azure;
   border-left-color: blue;
 }
 
-div.names{
-  /* text-indent: 50px;   */
+div.names {
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
 }
 
-.title-group{  
-  color:black;
+.title-group {  
+  color: black;
 }
-.a{
+
+.a {
   background-color: blue;
   color: white;
 }
-.b{
+
+.b {
   background-color: cornsilk;  
 }
-.c{
+
+.c {
   background-color: red;
   color: white;
 }
 
-a{
+a {
   text-decoration: none;
   font-style: bold;
   font-size: larger;
 }
-.objective, h3{
+
+.objective, h3 {
   font-size: 1.3vi;
   color: red;
   text-align: justify;
 }
-.subtitle{
+
+.subtitle {
   font-size: 30px;
   background-color: brown;
   color: white;
   border-radius: 50px;
 }
 
-ol li a:hover{
+ol li a:hover {
   font-size: 2.5vi;
-  color:ivory;
-  background-color:blue;
+  color: ivory;
+  background-color: blue;
 }
-.names{
-  background-color:brown;
+
+.names {
+  background-color: brown;
   color: white;
 }
