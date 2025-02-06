@@ -38,7 +38,7 @@ h2.subtitle:hover {
 
 /* video */
 .group-video {
-  border: 5px solid salmon;  
+  //border: 5px solid salmon;  
   margin-top: 20px;
 }
 
@@ -123,5 +123,5 @@ ol li a:hover {
 
 .names {
   background-color: brown;
-  color: white;
+  color: white;  
 }
