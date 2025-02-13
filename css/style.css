@@ -28,7 +28,7 @@ div.instructions h2 {
 
 h3 {
   font-size: 1.5vi;
-  color: red; 
+  color: red;
   text-align: justify;
 }
 
@@ -38,7 +38,6 @@ h2.subtitle:hover {
 
 /* video */
 .group-video {
-  //border: 5px solid salmon;  
   margin-top: 20px;
 }
 
@@ -48,7 +47,8 @@ h2.subtitle:hover {
 
 div.video {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  padding-bottom: 56.25%;
+  /* 16:9 Aspect Ratio */
   height: 0;
   overflow: hidden;
   margin-top: 20px;
@@ -64,7 +64,7 @@ div.video iframe {
 }
 
 div.names ol, h3 {
-  margin-left: 0px;    
+  margin-left: 0px;
 }
 
 div.instructions h2 {
@@ -78,7 +78,7 @@ div.names {
   text-align: center;
 }
 
-.title-group {  
+.title-group {
   color: black;
 }
 
@@ -88,7 +88,10 @@ div.names {
 }
 
 .b {
-  background-color: cornsilk;  
+  background-color:darkblue;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .c {
@@ -123,5 +126,13 @@ ol li a:hover {
 
 .names {
   background-color: brown;
-  color: white;  
+  color: white;
+}
+
+.indicators {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
 }
